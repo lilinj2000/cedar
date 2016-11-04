@@ -9,6 +9,6 @@ source ./env.sh
 ####  zeusing 12345 ###################
 cd ~/app/zeta_zeusing_12345/bin
 source ./env.sh
-sudo ./zeta >/dev/null 2>&1 &
+~/cedar/sudo ./zeta >/dev/null 2>&1 &
 
 

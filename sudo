@@ -1,0 +1,5 @@
+#! /bin/sh
+# TODO: parse & pass-through sudo options from $@
+sudo_options="-E"
+
+/usr/bin/sudo $sudo_options LD_LIBRARY_PATH=$LD_LIBRARY_PATH PATH=$PATH $@
